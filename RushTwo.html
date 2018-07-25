@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="assets/myjs.js"></script>
+    <title>HTML5 Tutorial</title>
+</head>
+
+<body>
+
+<!--Canvas Example By Enam-->
+<canvas id="mycanvas" width="400" height="200"></canvas>
+
+
+
+
+<form action="sisir.php">
+    <p><input type="text" name="name" size="40" maxlength="50" placeholder="Enter Name"></p>
+    <p><input type="text" name="email" size="40" maxlength="50" placeholder="Enter Email"></p>
+    <p>History : </p>
+    <textarea name="history" id="history" cols="40" rows="10" placeholder="Describe Your History"></textarea>
+    <fieldset>
+        <legend>Gender</legend>
+        Male <input type="radio" name="gender">
+        Female <input type="radio" name="gender">
+    </fieldset>
+    <fieldset>
+        <legend>Hobbies</legend>
+        Male <input type="checkbox">
+        Female <input type="checkbox">
+    </fieldset>
+    <select name="favMovie">
+        <option value="a">3 idiots</option>
+        <option value="b">Ek tha tiger</option>
+        <option value="c">Tere Naam</option>
+    </select>
+
+    <select name="favHero">
+        <optgroup label="Bollywood">
+            <option value="srk">Shahrukh Khan</option>
+            <option value="sallu">Salman Khan</option>
+        </optgroup>
+        <optgroup label="Tollywood">
+            <option value="prab">Prabhas</option>
+            <option value="allu">Allu Arjun</option>
+            <option value="ram">Ram Charan</option>
+        </optgroup>
+    </select>
+    <br><br>
+    <input type="file" name="Upload">
+    <input type="reset" value="Reset">
+    <input type="submit">
+</form>
+
+
+
+</body>
+
+</html>
